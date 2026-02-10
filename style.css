@@ -9,34 +9,34 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     min-height: 100vh;
-    background: linear-gradient(135deg, #f8fafc 0%, #dbeafe 50%, #e0e7ff 100%);
+    background: linear-gradient(135deg, #eceff1 0%, #dbeafe 50%, #e0e7ff 100%);
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 20px;
+    padding: 20px;  
 }
 
 .container {
     width: 100%;
-    max-width: 448px;
+    max-width: 414px;
 }
 
 .business-card {
     background: white;
-    border-radius: 16px;
+    border-radius: 30px;
     box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
     overflow: hidden;
 }
 
 .card-header {
     position: relative;
-    height: 120px;
+    height: 130px;
     background: linear-gradient(90deg, #600000 0%, #9c0101 50%, #c20101 100%);
 }
 
 .profile-image-wrapper {
     position: absolute;
-    bottom: -64px;
+    bottom: -70px;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -45,7 +45,7 @@ body {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    border: 4px solid white;
+    border: 2px solid rgb(240, 237, 237);
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
     object-fit: cover;
 }
@@ -67,12 +67,12 @@ body {
 
 .company-logo-wrapper {
     display: flex;
-    margin-bottom: -25px;
-    margin-left: 290px;
+    margin-bottom: -35px;
+    margin-left: 260px;
 }
 
 .company-logo {
-    height: 70px;
+    height: 75px;
     width: auto;
     object-fit: contain;
     opacity: 0.8;
@@ -172,8 +172,8 @@ body {
 }
 
 .contact-label {
-    font-size: 12px;
-    color: #64748b;
+    font-size: 11px;
+    color: #000000;
     margin-bottom: 2px;
 }
 
