@@ -1,0 +1,12 @@
+BEGIN:VCARD
+VERSION:3.0
+FN:Kim Guerrero
+N:Guerrero;Kim;;;
+ORG:Secur Links Network and Technologies, Inc.
+TITLE:Account Manager
+TEL;TYPE=WORK,VOICE:+63 985 336 3677
+EMAIL;TYPE=WORK:kim@secur.ph
+URL:www.secur.ph
+ADR;TYPE=WORK:;;Makati City;CA;;;Philippines
+NOTE:Account Manager at Secur Links Network and Technologies, Inc.
+END:VCARD
